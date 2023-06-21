@@ -32,18 +32,3 @@ for (const buttonDOM of buttonsDOM) {
         equationDOM.innerText = updateEquationValue;
     });
 }
-/* 
-switch (buttonValue) {
-    case 'C':
-        updateEquationValue = '';
-        break;
-    case '<=':
-        updateEquationValue = currentEquationValue.slice(0, -1);
-        break;
-    default:
-        updateEquationValue += buttonValue;
-        break;
-}
-
-equationDOM.innerText = updateEquationValue;
-*/
